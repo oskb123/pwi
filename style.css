@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+	background-image: url(../test/zdj4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height:900px;
+    background-size: cover;
+    position: relative;
+}
+
+.menu ul{
+	display: inline-flex;
+	width: 100%;
+	/* background: #F5F5DC; */
+	background: black;
+}
+
+.menu ul li{
+	list-style: none;
+	margin: 25px 50px;
+	color: white;
+	text-align: center;
+	background: black;	
+}
+.tekst{
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* transform: rotate(-30deg); */
+}
+
+.dol{
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+.dol ul{
+	display: inline-flex;
+	text-align: center;
+	background: black;
+	width: 100%;
+}
+.dol ul li{
+	list-style: none;
+	margin: 25px 50px;
+	color: white;
+	text-align: center;
+	background: black;
+}
