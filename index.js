@@ -49,7 +49,7 @@ function start(){
 }
 
 function click(){
-	const boxIndex = this.getAttribute("boxIndex");
+	const boxIndex = this.getAttribute("data-boxIndex");
 	
 	if(!options[boxIndex] && gamestatus == true){     //sprawdzamy czy puste, jak tak to mozna zaktualizowac
 		options[boxIndex] = currentPlayer;
