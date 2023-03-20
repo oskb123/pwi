@@ -1,38 +1,30 @@
 <!doctype html>
 <html lang="pl-PL">
-
 	<head>
 		<meta charset="UTF-8">
 		<title>Programowanie W Internecie</title>
 		<link rel="stylesheet" href="./style.css">
 	</head>
 <body>
-
 	<div class="container">
-		<div class="menu">
-			<ul>
-				<li>Ciasta</li>
-				<li>Serniki</li>
-				<li>Lody</li>
-				<li>Torty</li>
-			</ul>
-		</div>	
-		
-	</div>
-	<div class="tekst">
-		<h1 style="font-size:100px">Desery i inne słodkości</h1>
-	</div>
-	
-	<div class="dolne">
-	<div class="dol">
-		<ul>
-			<li>Kontakt</li>
-			<li>Regulamin</li>
-			<li>O mnie</li>
-		</ul>
+		<h1 id="playerText">Kółko i krzyżyk</h1>
+		<h2 id="statusText"></h2>
+		<button id="restartButton">Restart</button>
+		<button id="ai">Gra z AI</button>
+		<button id="withopp">Dwóch graczy</button>
+	<div id="gameboard">
+		<div boxIndex="0" class="box"></div>
+        <div boxIndex="1" class="box"></div>
+        <div boxIndex="2" class="box"></div>
+        <div boxIndex="3" class="box"></div>
+        <div boxIndex="4" class="box"></div>
+        <div boxIndex="5" class="box"></div>
+        <div boxIndex="6" class="box"></div>
+        <div boxIndex="7" class="box"></div>
+        <div boxIndex="8" class="box"></div>
 	</div>
 	</div>
-	
+	<script src="index.js"></script>
 </body>
 </html>
  
